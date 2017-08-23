@@ -182,6 +182,7 @@ header .header-content .header-content-inner p {
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
+  /*
   header {
     min-height: 100%;
   }
@@ -193,6 +194,7 @@ header .header-content .header-content-inner p {
     transform: translateY(-50%);
     padding: 0 50px;
   }
+  */
   header .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: auto;
