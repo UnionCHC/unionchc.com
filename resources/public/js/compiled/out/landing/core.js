@@ -21,4 +21,4 @@ return console.log("Application init ok!");
 });
 goog.exportSymbol('landing.core.init', landing.core.init);
 
-//# sourceMappingURL=core.js.map?rel=1503492615677
+//# sourceMappingURL=core.js.map?rel=1503492831162
