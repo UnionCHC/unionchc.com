@@ -46,25 +46,25 @@ header .header-content .header-content-inner .logo {
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
-
-header .header-content .header-content-inner .logo {
-  background-image: url("../img/big_logo@2x.png");
-  background-size: 300px 300px;
-  width: 300px;
-  height: 300px;
-}}
+  header .header-content .header-content-inner .logo {
+    background-image: url("../img/big_logo@2x.png");
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+  }
+}
 
 @media only screen and (min--moz-device-pixel-ratio: 3),
 only screen and (-o-min-device-pixel-ratio: 3/1),
 only screen and (-webkit-min-device-pixel-ratio: 3),
 only screen and (min-device-pixel-ratio: 3) {
-
-header .header-content .header-content-inner .logo {
-  background-image: url("../img/big_logo@3x.png");
-  background-size: 300px 300px;
-  width: 300px;
-  height: 300px;
-}}
+  header .header-content .header-content-inner .logo {
+    background-image: url("../img/big_logo@3x.png");
+    background-size: 300px 300px;
+    width: 300px;
+    height: 300px;
+  }
+}
 
 .btn-circle {
   width: 70px;
