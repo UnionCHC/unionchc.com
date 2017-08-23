@@ -521,3 +521,7 @@ footer ul.quicklinks {
   text-transform: none;
 }
 
+.text-column {
+  text-align: justify;
+  margin-top: 20px;
+}
