@@ -548,3 +548,16 @@ footer ul.quicklinks {
   text-align: justify;
   margin-top: 20px;
 }
+
+.media-box {
+    padding: 16px;
+}
+
+.media-box i {
+  font-size: 26px;
+  background: -webkit-linear-gradient(to left, #008DD9, #00AC8E);
+  background: linear-gradient(to left, #008DD9, #00AC8E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
