@@ -373,6 +373,30 @@ footer ul.quicklinks {
   -webkit-text-fill-color: transparent;
 }
 
+.media-about {
+  padding-top: 20px;
+}
+
+.media-about i {
+  font-size: 50px;
+  background: -webkit-linear-gradient(to left, #008DD9, #00AC8E);
+  background: linear-gradient(to left, #008DD9, #00AC8E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.media-about .pull-left {
+    padding-right: 25px;
+}
+
+.media-about h3 {
+  margin-top: 0px;
+}
+
+span.select {
+  font-weight: 400;
+}
+
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
