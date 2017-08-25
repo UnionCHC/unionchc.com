@@ -9,8 +9,18 @@
   :dependencies [[org.clojure/clojure "1.9.0-alpha17"]
                  [org.clojure/clojurescript "1.9.908"]
                  [org.clojure/core.async  "0.3.443"]
+                 [org.clojure/data.json "0.2.6"]
+                 [org.clojure/tools.logging "0.4.0"]
                  [reagent "0.7.0"]
-                 [re-frame "0.10.1"]]
+                 [re-frame "0.10.1"]
+                 [day8.re-frame/http-fx "0.1.4"]
+                 [cljs-ajax "0.6.0"]
+                 [compojure "1.5.0"]
+                 [ring "1.4.0"]
+                 [ring/ring-json "0.4.0"]
+                 [yogthos/config "0.8"]
+                 [http-kit "2.2.0"]
+                 [org.apache.commons/commons-daemon "1.0.9"]]
 
   :plugins [[lein-figwheel "0.5.13"]
             [lein-cljsbuild "1.1.7" :exclusions [[org.clojure/clojure]]]]
@@ -44,6 +54,7 @@
                ;; lein cljsbuild once min
                {:id "min"
                 :source-paths ["src/cljs"]
+                :jar true
                 :compiler {:output-to "resources/public/js/compiled/app.js"
                            :main landing.core
                            :optimizations :advanced
@@ -64,7 +75,7 @@
 
              ;; doesn't work for you just run your own server :) (see lein-ring)
 
-             ;; :ring-handler hello_world.server/handler
+             :ring-handler landing.handler/dev-handler
 
              ;; To be able to open files in your editor from the heads up display
              ;; you will need to put a script on your path.
@@ -88,6 +99,11 @@
              ;; :server-logfile false
              }
 
+  :main landing.server
+  :aot [clojure.tools.logging.impl landing.server]
+  :uberjar-name "landing.jar"
+
+  :prep-tasks [["cljsbuild" "once" "min"] "compile"]
 
   ;; Setting up nREPL for Figwheel and ClojureScript dev
   ;; Please see:

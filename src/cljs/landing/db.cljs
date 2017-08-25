@@ -2,7 +2,6 @@
 
 (def app-db
   {:feedback {:name ""
-              :emain ""
+              :email ""
               :phone ""
-              :message ""
-              :sending? false}})
+              :message ""}})
