@@ -403,8 +403,24 @@ footer ul.quicklinks {
     }
 }
 
+.media-list i {
+  font-size: 22px;
+  background: -webkit-linear-gradient(to left, #008DD9, #00AC8E);
+  background: linear-gradient(to left, #008DD9, #00AC8E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.media-list .media-left {
+    padding-right: 14px;
+}
+
 span.select {
   font-weight: 400;
+}
+
+.media-list .media-body .lead {
+  margin: 5px 0 5px 0;
 }
 
 .timeline {
