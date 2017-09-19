@@ -413,14 +413,16 @@ footer ul.quicklinks {
 
 .media-list .media-left {
     padding-right: 14px;
+    padding-top: 8px;
+}
+
+.media-list .pull-left {
+    padding-right: 14px;
+    padding-top: 8px;
 }
 
 span.select {
   font-weight: 400;
-}
-
-.media-list .media-body .lead {
-  margin: 5px 0 5px 0;
 }
 
 .timeline {
