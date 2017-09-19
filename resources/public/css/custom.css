@@ -607,3 +607,7 @@ span.select {
             right: auto;
         }
 }
+
+.col-with-button {
+  padding-top: 40px;
+}
