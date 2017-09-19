@@ -412,17 +412,29 @@ footer ul.quicklinks {
 }
 
 .media-list .media-left {
-    padding-right: 14px;
-    padding-top: 8px;
+    padding-left: 3px;
+    padding-right: 16px;
+    padding-top: 5px;
 }
 
 .media-list .pull-left {
-    padding-right: 14px;
+    padding-right: 16px;
     padding-top: 8px;
 }
 
+i.icon-middle {
+    font-size: 24px;
+}
+
+@media (min-width: 768px) {
+    i.icon-middle {
+        font-size: 32px;
+    }
+}
+
 span.select {
-  font-weight: 400;
+  font-weight: 300;
+  color: #008DD9;
 }
 
 .timeline {
@@ -612,4 +624,18 @@ span.select {
 
 .col-with-button {
   padding-top: 40px;
+}
+
+ul.simple-list .lead {
+    margin-bottom: 5px;
+}
+
+.int-media .media i {
+    font-size: 18px;
+    padding-right: 8px;
+    padding-top: 5px;
+}
+
+.int-media .media .media-body .lead {
+    margin-bottom: 8px;
 }
