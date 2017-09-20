@@ -66,6 +66,39 @@ only screen and (min-device-pixel-ratio: 3) {
   }
 }
 
+.logo-color {
+  background-image: url("../img/logo_color.png");
+  background-size: 250px 250px;
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 10px auto;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+  .logo-color {
+    background-image: url("../img/logo_color@2x.png");
+    background-size: 250px 250px;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 3/1),
+only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3) {
+  .logo-color {
+    background-image: url("../img/logo_color@3x.png");
+    background-size: 250px 250px;
+    width: 250px;
+    height: 250px;
+  }
+}
+
 .btn-circle {
   width: 70px;
   height: 70px;
