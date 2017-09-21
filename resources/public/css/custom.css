@@ -663,6 +663,15 @@ ul.simple-list .lead {
     margin-bottom: 5px;
 }
 
+.ico-coins .lead {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+img.coins {
+    margin-top: 18px;
+}
+
 .int-media .media i {
     font-size: 18px;
     padding-right: 8px;
