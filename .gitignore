@@ -2,6 +2,8 @@
 !.gitignore
 *.log
 *.iml
+*.pid
 target/
+logs/
 resources/public/js/compiled
 feedback.txt
