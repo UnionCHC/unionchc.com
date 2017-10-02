@@ -10,7 +10,7 @@
 
 ;; Defaults
 
-(def default-port "3000")
+(def default-port "3001")
 (def state (atom {:server nil}))
 
 (defn init [args])
