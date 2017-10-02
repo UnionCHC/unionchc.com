@@ -305,6 +305,14 @@ ul.social-buttons li a:active {
   -webkit-text-fill-color: transparent;
 }
 
+.service-box i.negative {
+  font-size: 80px;
+  background: -webkit-linear-gradient(to left, #DF6100, #D90000);
+  background: linear-gradient(to left, #DF6100, #D90000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 section#contact {
   background-image: url('../img/map.png');
   background-position: center;
@@ -387,6 +395,10 @@ footer ul.quicklinks {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+}
+
+.text-tagline {
+  margin-top: 20px;
 }
 
 .text-column {
